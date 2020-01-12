@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Lazy Loading</h1>
+    <h1>Vue Starter kit</h1>
     <ul>
       <li><router-link to="/">/</router-link></li>
       <li><router-link to="/counter">/counter</router-link></li>
