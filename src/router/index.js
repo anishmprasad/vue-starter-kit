@@ -2,7 +2,7 @@ import VueRouter from "vue-router";
 import Vue from "vue";
 
 const Counter = () =>
-  import(/* webpackChunkName: "counter" */ "../pages/Counter.vue");
+  import(/* webpackChunkName: "counter" */ "../pages/Counter/index.vue");
 const HelloWorld = () =>
   import(/* webpackChunkName: "helloworld" */ "../pages/HelloWorld.vue");
 

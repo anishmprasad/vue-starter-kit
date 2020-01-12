@@ -8,15 +8,5 @@
   </div>
 </template>
 
-<script>
-import { mapGetters, mapActions } from "vuex";
-export default {
-  computed: mapGetters(["evenOrOdd"]),
-  methods: mapActions([
-    "increment",
-    "decrement",
-    "incrementIfOdd",
-    "incrementAsync"
-  ])
-};
-</script>
+<script src="./index.js" />
+<style lang="scss" src="./index.scss" />
