@@ -1,10 +1,5 @@
-import { mapGetters, mapActions } from "vuex";
+import { mapGetters, mapActions } from 'vuex';
 export default {
-  computed: mapGetters(["evenOrOdd"]),
-  methods: mapActions([
-    "increment",
-    "decrement",
-    "incrementIfOdd",
-    "incrementAsync"
-  ])
+	computed: mapGetters(['evenOrOdd']),
+	methods: mapActions(['increment', 'decrement', 'incrementIfOdd', 'incrementAsync'])
 };
